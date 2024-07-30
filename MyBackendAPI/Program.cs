@@ -23,9 +23,24 @@ var summaries = new[]
 
 app.MapGet("/", () => {
 
-    var creatorName = "hello"; 
+        var creatorName = "Rohan Robinson created this";
+    var htmlContent = $@"
+        <!DOCTYPE html>
+        <html lang=""en"">
+        <head>
+            <meta charset=""UTF-8"">
+            <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+            <title>Creator Information</title>
+        </head>
+        <body>
+            <h1>{creatorName}</h1>
+        </body>
+        </html>
+    ";
 
-    return creatorName;
+    return Results.Content(htmlContent, "text/html");
+
+
 
 })
 .WithName("Start")
