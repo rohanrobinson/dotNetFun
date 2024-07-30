@@ -1,0 +1,12 @@
+/Users/admin/Documents/Technology/dotNetFun/MyBackendAPI/bin/Release/net8.0/publish/MyBackendAPI
+/Users/admin/Documents/Technology/dotNetFun/MyBackendAPI/bin/Release/net8.0/publish/appsettings.Development.json
+/Users/admin/Documents/Technology/dotNetFun/MyBackendAPI/bin/Release/net8.0/publish/appsettings.json
+/Users/admin/Documents/Technology/dotNetFun/MyBackendAPI/bin/Release/net8.0/publish/MyBackendAPI.dll
+/Users/admin/Documents/Technology/dotNetFun/MyBackendAPI/bin/Release/net8.0/publish/MyBackendAPI.deps.json
+/Users/admin/Documents/Technology/dotNetFun/MyBackendAPI/bin/Release/net8.0/publish/MyBackendAPI.runtimeconfig.json
+/Users/admin/Documents/Technology/dotNetFun/MyBackendAPI/bin/Release/net8.0/publish/MyBackendAPI.pdb
+/Users/admin/Documents/Technology/dotNetFun/MyBackendAPI/bin/Release/net8.0/publish/Microsoft.AspNetCore.OpenApi.dll
+/Users/admin/Documents/Technology/dotNetFun/MyBackendAPI/bin/Release/net8.0/publish/Microsoft.OpenApi.dll
+/Users/admin/Documents/Technology/dotNetFun/MyBackendAPI/bin/Release/net8.0/publish/Swashbuckle.AspNetCore.Swagger.dll
+/Users/admin/Documents/Technology/dotNetFun/MyBackendAPI/bin/Release/net8.0/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/admin/Documents/Technology/dotNetFun/MyBackendAPI/bin/Release/net8.0/publish/Swashbuckle.AspNetCore.SwaggerUI.dll
