@@ -39,9 +39,15 @@ app.MapGet("/friends", () => new[]
     new Friend("Anya"), new Friend("Eshaan"), new Friend("Anna")
 });
 
+app.MapGet("/sports", () => new[] {
+    new Sport("Basketball"), new Sport("Tennis"), new Sport("Volleyball"), 
+});
+
 app.Run();
 
 record Friend(string friendName);
+
+record Sport(string sportName);
 
 
 
