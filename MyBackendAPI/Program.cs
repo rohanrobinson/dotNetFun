@@ -16,38 +16,16 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapGet("/", () => {
-    var creatorName = "Rohan Cain Robinson created this";
-    var htmlContent = $@"
-        <!DOCTYPE html>
-        <html lang=""en"">
-        <head>
-            <meta charset=""UTF-8"">
-            <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
-            <title>Creator Information</title>
-        </head>
-        <body>
-            <h1>{creatorName}</h1>
-        </body>
-        </html>
-    ";
-    return Results.Content(htmlContent, "text/html");
-});
+app.MapGet("/", () => "welcome to let's go biotech. learn from cutting-edge biotech papers and companies");
 
-app.MapGet("/friends", () => new[]
-{
-    new Friend("Anya"), new Friend("Eshaan"), new Friend("Anna")
-});
+app.MapGet("/about", () => "about let's go biotech");
 
-app.MapGet("/sports", () => new[] {
-    new Sport("Basketball"), new Sport("Tennis"), new Sport("Volleyball"), 
-});
+app.MapGet("/companyList", () => "list of interesting biotech companies");
+
+app.MapGet("/paperList", () => "list of interesting biotech papers");
 
 app.Run();
 
-record Friend(string friendName);
-
-record Sport(string sportName);
 
 
 
